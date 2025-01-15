@@ -1,6 +1,6 @@
 Day 1 VC
 What is Git? distrubited control system ( centrlized/local) 
-Git is the same as GitHub? True or False  
+Git is the same as GitHub? True or False  -> False
 What is the command to get the installed version of Git? git --version
 Which option should you use to set the default user name for every repository on your computer?--global 
 What is the command to set the user email for the current repository git config user.email
