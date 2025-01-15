@@ -1,0 +1,23 @@
+Day 1 VC
+What is Git? distrubited control system ( centrlized/local) 
+Git is the same as GitHub? True or False  
+What is the command to get the installed version of Git? git --version
+Which option should you use to set the default user name for every repository on your computer?--global 
+What is the command to set the user email for the current repository git config user.email
+What is the command to add all files and changes of the current folder to the staging environment of the Git repository? git add –all
+What is the command to get the current status of the Git repository git status
+What is the command to initialize Git on the current repository? git init
+Git automatically adds new files to the repository and starts tracking them.? True or False
+What is the command to commit the staged changes for the Git repository? git commit -m "comm"
+What is the command to commit with the message "New email": 
+	git config --global user.email "your-new-email@example.com"
+	git commit -m "New email"
+What is the command to view the history of commits for the repository? git log
+In Git, a branch is: A separate version of the main repository
+What is the command to create a new branch named "new-email"? git branch new-email
+	git checkout -b new-email
+What is the command to move to the branch named "new-email"? 
+	git checkout new-email
+What is the command to merge the current branch with the branch "new-email"?
+	git checkout main
+	git merge new-email
