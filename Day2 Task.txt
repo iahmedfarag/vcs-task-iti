@@ -1,0 +1,51 @@
+1-Make a project deployment.
+https://iahmedfarag.github.io/cairo-party/
+
+2-what is pull request and request & differrent bettween them?
+pull request pulling data from GitHub/GitLab using git
+request get/post/put/delete requests "http"
+
+
+3-Make fork from your project and use it from anthor account 
+after clicking on fork button ongithub
+will create my repo
+and then clone it into my machine
+then work normally
+
+
+4-What is the command to delete the branch "new-email"
+git branch -d new-email
+
+
+5-What is the command to push the current repository to the remote origin?
+git push origin main
+
+
+6-what is git Rebase and how to use it ?
+git checkout xy
+git rebase main
+
+
+7-What is the command to get all the change history of the remote repository "origin"?
+git fetch origin
+
+
+8-What is the command to show the differences between the current branch and the branch "new-email"?
+git diff new-email
+
+
+9-what is tags and Make five tags and release two of them?
+Tags in Git are used to mark specific points in a repository’s history. like bootstrap versions to be able to release to anyone of them.
+
+git tag -a v1 -m "v1 test"
+git tag -a v2 -m "v2 test"
+git tag -a v3 -m "v3 test"
+git tag -a v4 -m "v4 test"
+git tag -a v5 -m "v5 launch"
+
+
+Bouns :
+Make SSh to your repo.
+ssh-keygen -t ed25519 -C "ahmedfarag1k@gmail.com"
+
+
